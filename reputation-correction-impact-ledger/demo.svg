@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Reputation correction impact workflow</title>
+  <desc id="desc">Immutable reputation receipts receive correction events, recompute scores, and emit reviewer-safe packets.</desc>
+  <rect width="920" height="420" fill="#10243a"/>
+  <rect x="48" y="64" width="184" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="276" y="64" width="184" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="504" y="64" width="184" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="732" y="64" width="140" height="100" rx="8" fill="#eaf5ff"/>
+  <text x="82" y="104" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Receipt</text>
+  <text x="72" y="130" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">review, credit, badge</text>
+  <text x="318" y="104" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Correction</text>
+  <text x="304" y="130" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">retract or amend</text>
+  <text x="546" y="104" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Recompute</text>
+  <text x="528" y="130" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">domain and profile</text>
+  <text x="760" y="104" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Packet</text>
+  <text x="754" y="130" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">auditable delta</text>
+  <path d="M232 114 H276" stroke="#68d391" stroke-width="5"/>
+  <path d="M460 114 H504" stroke="#68d391" stroke-width="5"/>
+  <path d="M688 114 H732" stroke="#68d391" stroke-width="5"/>
+  <rect x="120" y="238" width="680" height="92" rx="8" fill="#07101c" stroke="#6ea8c9" stroke-width="2"/>
+  <text x="156" y="277" font-family="Consolas, monospace" font-size="18" fill="#68d391">review-7 retracted</text>
+  <text x="156" y="308" font-family="Arial, sans-serif" font-size="19" fill="#ffffff">score 82 -> 44, original receipt retained, leaderboard hold open</text>
+</svg>
