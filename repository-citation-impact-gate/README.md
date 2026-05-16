@@ -19,5 +19,7 @@ node repository-citation-impact-gate/demo.js
 node repository-citation-impact-gate/test.js
 ```
 
-`demo.svg` is a short visual storyboard of the merge gate from incoming fork to export attestation.
+`demo.mp4` is the reviewer-facing video artifact for the bounty submission. It walks through the problem, implementation, acceptance path, and command validation in 8.4 seconds. `demo.svg` is a short visual storyboard of the merge gate from incoming fork to export attestation.
+
+See `acceptance-notes.md` for the payout-gate evidence checklist.
 
