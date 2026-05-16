@@ -19,5 +19,7 @@ node collab-review-freeze-lane/test.js
 node collab-review-freeze-lane/demo.js
 ```
 
-`demo.svg` shows the freeze lane from active edits to reviewer clearance and version snapshot export.
+`demo.mp4` is the reviewer-facing video artifact for the bounty submission. It walks through the problem, implementation, acceptance path, and command validation in 8.4 seconds. `demo.svg` shows the freeze lane from active edits to reviewer clearance and version snapshot export.
+
+See `acceptance-notes.md` for the payout-gate evidence checklist.
 
