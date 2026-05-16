@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Knowledge graph evidence freshness workflow</title>
+  <desc id="desc">Evidence status is scored, graph edges are reviewed, unsafe recommendations are suppressed, and replacement candidates are surfaced.</desc>
+  <rect width="920" height="420" fill="#10243a"/>
+  <rect x="56" y="62" width="180" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="282" y="62" width="180" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="508" y="62" width="180" height="100" rx="8" fill="#eaf5ff"/>
+  <rect x="734" y="62" width="130" height="100" rx="8" fill="#eaf5ff"/>
+  <text x="92" y="102" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Evidence</text>
+  <text x="82" y="128" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">corrected, stale,</text>
+  <text x="82" y="146" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">retracted, failed</text>
+  <text x="322" y="102" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Edge Review</text>
+  <text x="310" y="128" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">risk by relation</text>
+  <text x="540" y="102" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Decision</text>
+  <text x="532" y="128" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">suppress or review</text>
+  <text x="752" y="102" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Replace</text>
+  <text x="750" y="128" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">candidate IDs</text>
+  <path d="M236 112 H282" stroke="#68d391" stroke-width="5"/>
+  <path d="M462 112 H508" stroke="#68d391" stroke-width="5"/>
+  <path d="M688 112 H734" stroke="#68d391" stroke-width="5"/>
+  <rect x="96" y="238" width="728" height="96" rx="8" fill="#07101c" stroke="#6ea8c9" stroke-width="2"/>
+  <text x="132" y="276" font-family="Consolas, monospace" font-size="18" fill="#68d391">edge-crispr-method</text>
+  <text x="132" y="308" font-family="Arial, sans-serif" font-size="19" fill="#ffffff">retracted evidence suppresses recommendation, replacement paper-crispr-qc-v3 is surfaced</text>
+</svg>
