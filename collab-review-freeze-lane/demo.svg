@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360" role="img" aria-labelledby="title desc">
+  <title id="title">Collaborative review freeze lane demo</title>
+  <desc id="desc">A manuscript section enters review freeze, clears blockers, and exports a version snapshot.</desc>
+  <rect width="960" height="360" fill="#f7f8fb"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#172033">
+    <text x="48" y="52" font-size="24" font-weight="700">Review freeze lane for scientific editing</text>
+    <text x="48" y="82" font-size="14">Direct edits pause while reviewers, notebook checks, tasks, and autosaves keep moving.</text>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#172033">
+    <rect x="52" y="128" width="168" height="110" rx="8" fill="#ffffff" stroke="#98a5b3"/>
+    <text x="76" y="160" font-weight="700">Active section</text>
+    <text x="76" y="188">edits</text>
+    <text x="76" y="212">autosaves</text>
+    <path d="M222 183 H312" stroke="#4d6379" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="316" y="108" width="214" height="150" rx="8" fill="#ffffff" stroke="#98a5b3"/>
+    <text x="344" y="140" font-weight="700">Freeze window</text>
+    <text x="344" y="168">comments allowed</text>
+    <text x="344" y="192">tasks tracked</text>
+    <text x="344" y="216">notebook freshness</text>
+    <text x="344" y="240">direct edits blocked</text>
+    <path d="M532 183 H620" stroke="#4d6379" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="624" y="128" width="136" height="110" rx="8" fill="#ffffff" stroke="#98a5b3"/>
+    <text x="650" y="160" font-weight="700">Clearance</text>
+    <text x="650" y="188">no blockers</text>
+    <text x="650" y="212">fresh output</text>
+    <path d="M762 183 H838" stroke="#4d6379" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <rect x="842" y="128" width="78" height="110" rx="8" fill="#ffffff" stroke="#98a5b3"/>
+    <text x="862" y="168" font-weight="700">Snapshot</text>
+    <text x="862" y="198">digest</text>
+  </g>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#4d6379"/>
+    </marker>
+  </defs>
+</svg>
