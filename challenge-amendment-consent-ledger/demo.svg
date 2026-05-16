@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="420" viewBox="0 0 920 420" role="img" aria-labelledby="title desc">
+  <title id="title">Challenge amendment consent ledger workflow</title>
+  <desc id="desc">Sponsor amendment is classified, pre-change submissions are locked, solver consent is evaluated, and arbitration packet is emitted.</desc>
+  <rect width="920" height="420" fill="#10243a"/>
+  <rect x="40" y="50" width="180" height="92" rx="8" fill="#eaf5ff"/>
+  <rect x="260" y="50" width="180" height="92" rx="8" fill="#eaf5ff"/>
+  <rect x="480" y="50" width="180" height="92" rx="8" fill="#eaf5ff"/>
+  <rect x="700" y="50" width="180" height="92" rx="8" fill="#eaf5ff"/>
+  <text x="70" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Sponsor Change</text>
+  <text x="64" y="114" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">deliverable, rubric,</text>
+  <text x="64" y="132" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">deadline, IP terms</text>
+  <text x="292" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Materiality</text>
+  <text x="295" y="114" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">score changes and</text>
+  <text x="295" y="132" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">require consent</text>
+  <text x="516" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Evidence Lock</text>
+  <text x="512" y="114" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">freeze prior hashes</text>
+  <text x="512" y="132" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">for arbitration</text>
+  <text x="740" y="88" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#10243a">Packet</text>
+  <text x="728" y="114" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">holds, consent, and</text>
+  <text x="728" y="132" font-family="Arial, sans-serif" font-size="14" fill="#1f405d">withdrawal rights</text>
+  <path d="M220 96 H260" stroke="#68d391" stroke-width="5"/>
+  <path d="M440 96 H480" stroke="#68d391" stroke-width="5"/>
+  <path d="M660 96 H700" stroke="#68d391" stroke-width="5"/>
+  <rect x="104" y="230" width="712" height="96" rx="8" fill="#07101c" stroke="#6ea8c9" stroke-width="2"/>
+  <text x="140" y="270" font-family="Consolas, monospace" font-size="18" fill="#68d391">student-forecast-team</text>
+  <text x="140" y="302" font-family="Arial, sans-serif" font-size="19" fill="#ffffff">submitted before amendment, did not consent, protected withdrawal available</text>
+</svg>
