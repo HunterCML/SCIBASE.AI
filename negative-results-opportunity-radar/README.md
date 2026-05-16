@@ -19,5 +19,6 @@ node negative-results-opportunity-radar/test.js
 node negative-results-opportunity-radar/demo.js
 ```
 
-`demo.svg` shows the assistant flow from paper evidence to ranked opportunity and reviewer prompts.
+`demo.mp4` is the reviewer-facing video artifact for the bounty submission. It walks through the problem, implementation, acceptance path, and command validation in 8.4 seconds. `demo.svg` shows the assistant flow from paper evidence to ranked opportunity and reviewer prompts.
 
+See `acceptance-notes.md` for the payout-gate evidence checklist.
