@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Artifact package integrity gate demo</title>
+  <desc id="desc">Static reviewer dashboard for the SCIBASE artifact package integrity module.</desc>
+  <rect width="1280" height="720" fill="#f6f8fb"/>
+  <rect x="72" y="56" width="1136" height="608" rx="6" fill="#ffffff" stroke="#d7dee8"/>
+  <text x="112" y="116" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#152033">Artifact Package Integrity Gate</text>
+  <text x="112" y="156" font-family="Arial, sans-serif" font-size="20" fill="#526173">Issue #14 reviewer package validation for hosted data, code, metadata, and rerun environments.</text>
+
+  <g transform="translate(112 206)">
+    <rect width="310" height="132" rx="6" fill="#eef7f1" stroke="#b8dbc2"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#2c6540">Package Ready</text>
+    <text x="24" y="88" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#174f2d">TRUE</text>
+  </g>
+
+  <g transform="translate(486 206)">
+    <rect width="310" height="132" rx="6" fill="#eef4ff" stroke="#b9cbed"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#2b4c7e">Previewable Artifacts</text>
+    <text x="24" y="88" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#183d73">3</text>
+  </g>
+
+  <g transform="translate(860 206)">
+    <rect width="310" height="132" rx="6" fill="#fff5e7" stroke="#e4c690"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#7b521b">Runnable Commands</text>
+    <text x="24" y="88" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#6d4311">1</text>
+  </g>
+
+  <g transform="translate(112 390)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#152033">Validation Flow</text>
+    <line x1="0" y1="32" x2="1034" y2="32" stroke="#d7dee8" stroke-width="2"/>
+    <circle cx="36" cy="86" r="18" fill="#2f6fed"/>
+    <text x="72" y="94" font-family="Arial, sans-serif" font-size="20" fill="#152033">Classify artifacts and assign metadata-aware previews</text>
+    <circle cx="36" cy="148" r="18" fill="#2f6fed"/>
+    <text x="72" y="156" font-family="Arial, sans-serif" font-size="20" fill="#152033">Check DataCite, JSON-LD, schema.org, licenses, access windows, and version hashes</text>
+    <circle cx="36" cy="210" r="18" fill="#2f6fed"/>
+    <text x="72" y="218" font-family="Arial, sans-serif" font-size="20" fill="#152033">Verify pinned runtimes and rerun commands before enabling reproduce buttons</text>
+    <circle cx="36" cy="272" r="18" fill="#2f6fed"/>
+    <text x="72" y="280" font-family="Arial, sans-serif" font-size="20" fill="#152033">Emit persistent links plus source and package digests for reviewer export packets</text>
+  </g>
+</svg>
