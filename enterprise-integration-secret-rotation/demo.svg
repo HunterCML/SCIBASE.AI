@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Enterprise Integration Secret Rotation Dashboard</title>
+  <desc id="desc">Static preview of enterprise API and webhook governance metrics.</desc>
+  <rect width="1280" height="720" fill="#f7f8fb"/>
+  <rect x="64" y="48" width="1152" height="624" rx="18" fill="#ffffff" stroke="#c7cfdd"/>
+  <text x="104" y="116" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1b2533">Enterprise Integration Secret Rotation</text>
+  <text x="104" y="154" font-family="Arial, sans-serif" font-size="18" fill="#5c697a">Admin risk queue for institutional API clients and webhook destinations</text>
+  <g transform="translate(104 202)">
+    <rect width="238" height="118" rx="10" fill="#13293d"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#b8c7d9">Compliance score</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">50</text>
+  </g>
+  <g transform="translate(366 202)">
+    <rect width="238" height="118" rx="10" fill="#b42318"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#ffe6e2">Critical findings</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">2</text>
+  </g>
+  <g transform="translate(628 202)">
+    <rect width="238" height="118" rx="10" fill="#0f766e"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#d4fbf5">Systems watched</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">5</text>
+  </g>
+  <g transform="translate(890 202)">
+    <rect width="238" height="118" rx="10" fill="#5b5f70"/>
+    <text x="24" y="42" font-family="Arial, sans-serif" font-size="18" fill="#eceff5">Evidence digests</text>
+    <text x="24" y="90" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff">3</text>
+  </g>
+  <g transform="translate(104 374)">
+    <rect width="1024" height="72" rx="10" fill="#fff4f2" stroke="#f2b8af"/>
+    <text x="24" y="31" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#8f1d12">api-dspace-prod</text>
+    <text x="24" y="55" font-family="Arial, sans-serif" font-size="16" fill="#4c5563">Suspend and rotate immediately: expired credential, unauthorized admin scope, unjustified break-glass access.</text>
+  </g>
+  <g transform="translate(104 466)">
+    <rect width="1024" height="72" rx="10" fill="#fff4f2" stroke="#f2b8af"/>
+    <text x="24" y="31" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#8f1d12">hook-eln-publication</text>
+    <text x="24" y="55" font-family="Arial, sans-serif" font-size="16" fill="#4c5563">Pause delivery and rotate secret: overdue signing secret, long overlap window, weak retry controls.</text>
+  </g>
+  <g transform="translate(104 558)">
+    <rect width="1024" height="72" rx="10" fill="#eef8f7" stroke="#99d5cf"/>
+    <text x="24" y="31" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#0f5d56">hook-funder-report</text>
+    <text x="24" y="55" font-family="Arial, sans-serif" font-size="16" fill="#4c5563">Monitor: HTTPS, HMAC-SHA256, idempotency, dead-letter queue, and verified recipient are in place.</text>
+  </g>
+</svg>
