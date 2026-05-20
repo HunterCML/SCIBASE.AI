@@ -1,0 +1,202 @@
+[
+  {
+    "name": "ready supersession",
+    "report": {
+      "decision": "ready",
+      "counts": {
+        "blocker": 0,
+        "warning": 0,
+        "info": 0
+      },
+      "findings": [],
+      "reviewerActions": [],
+      "datacite": {
+        "identifier": "10.5555/scibase.neuro-atlas.v1.4.0",
+        "titles": [
+          {
+            "title": "Neuro Methods Atlas"
+          }
+        ],
+        "version": "1.4.0",
+        "publisher": "SCIBASE.AI",
+        "publicationYear": "2026",
+        "resourceType": "Scientific project repository",
+        "relatedIdentifiers": [
+          {
+            "relatedIdentifier": "10.5555/scibase.neuro-atlas.v1.4.1",
+            "relationType": "IsObsoletedBy"
+          }
+        ],
+        "descriptions": [
+          {
+            "descriptionType": "Other",
+            "description": "Repository version transition decision: ready. Reason: Version 1.4.0 is superseded because an updated tagged version fixes citation metadata and rerun notes."
+          }
+        ]
+      },
+      "schemaOrg": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "name": "Neuro Methods Atlas",
+        "version": "1.4.0",
+        "identifier": "10.5555/scibase.neuro-atlas.v1.4.0",
+        "codeRepository": "https://scibase.ai/projects/neuro-methods-atlas",
+        "archivedAt": "s3://scibase-archives/neuro-methods-atlas/1.4.0.tar.gz",
+        "isBasedOn": "10.5555/scibase.neuro-atlas.v1.4.1",
+        "creativeWorkStatus": "supersede",
+        "license": "CC-BY-4.0"
+      },
+      "auditDigest": "e970b44f9d2adec9b6f54c7b9cfad2076da3451154b0dc0666c43e296eb3d549"
+    }
+  },
+  {
+    "name": "held withdrawal",
+    "report": {
+      "decision": "hold",
+      "counts": {
+        "blocker": 7,
+        "warning": 1,
+        "info": 0
+      },
+      "findings": [
+        {
+          "severity": "blocker",
+          "code": "SNAPSHOT_HASH_DRIFT",
+          "message": "Current repository hash differs from the archived release snapshot hash.",
+          "target": "snapshot.currentHash",
+          "remediation": "Preserve the archived hash and create a new version for changed repository content."
+        },
+        {
+          "severity": "blocker",
+          "code": "REDIRECT_MAP_INCOMPLETE",
+          "message": "Redirect map is missing exportBundle.",
+          "target": "redirects",
+          "remediation": "Map DOI, REST API, export bundle, and cite-this-project badge traffic to the tombstone or replacement target."
+        },
+        {
+          "severity": "blocker",
+          "code": "REDIRECT_MAP_INCOMPLETE",
+          "message": "Redirect map is missing citationBadge.",
+          "target": "redirects",
+          "remediation": "Map DOI, REST API, export bundle, and cite-this-project badge traffic to the tombstone or replacement target."
+        },
+        {
+          "severity": "blocker",
+          "code": "DOI_REDIRECT_DELETES_TARGET",
+          "message": "DOI redirect destination deletes the release target.",
+          "target": "redirects.doi",
+          "remediation": "Redirect to a tombstone page or replacement DOI, never to a missing resource."
+        },
+        {
+          "severity": "blocker",
+          "code": "DOWNSTREAM_CITATION_NOTICE_MISSING",
+          "message": "1 downstream citation(s) exist without a citation notice packet.",
+          "target": "provenance.citationNoticePacket",
+          "remediation": "Generate notices that preserve original citation text while pointing readers to tombstone or replacement context."
+        },
+        {
+          "severity": "warning",
+          "code": "FORK_NOTICE_MISSING",
+          "message": "1 fork(s) exist without a provenance notice packet.",
+          "target": "provenance.forkNoticePacket",
+          "remediation": "Notify derivative repositories and merge-request owners before changing version targets."
+        },
+        {
+          "severity": "blocker",
+          "code": "REPRODUCIBILITY_FAILURE_UNEXPLAINED",
+          "message": "Reproducibility failed without a public failure summary.",
+          "target": "reproducibility.failureSummary",
+          "remediation": "Attach a concise failure summary to the tombstone and replacement recommendation."
+        },
+        {
+          "severity": "blocker",
+          "code": "EXPORT_METADATA_INCOMPLETE",
+          "message": "Export metadata is missing schemaOrg.",
+          "target": "metadata",
+          "remediation": "Keep license, DataCite, and schema.org metadata complete across the tombstone transition."
+        }
+      ],
+      "reviewerActions": [
+        {
+          "code": "SNAPSHOT_HASH_DRIFT",
+          "severity": "blocker",
+          "target": "snapshot.currentHash",
+          "action": "Preserve the archived hash and create a new version for changed repository content."
+        },
+        {
+          "code": "REDIRECT_MAP_INCOMPLETE",
+          "severity": "blocker",
+          "target": "redirects",
+          "action": "Map DOI, REST API, export bundle, and cite-this-project badge traffic to the tombstone or replacement target."
+        },
+        {
+          "code": "REDIRECT_MAP_INCOMPLETE",
+          "severity": "blocker",
+          "target": "redirects",
+          "action": "Map DOI, REST API, export bundle, and cite-this-project badge traffic to the tombstone or replacement target."
+        },
+        {
+          "code": "DOI_REDIRECT_DELETES_TARGET",
+          "severity": "blocker",
+          "target": "redirects.doi",
+          "action": "Redirect to a tombstone page or replacement DOI, never to a missing resource."
+        },
+        {
+          "code": "DOWNSTREAM_CITATION_NOTICE_MISSING",
+          "severity": "blocker",
+          "target": "provenance.citationNoticePacket",
+          "action": "Generate notices that preserve original citation text while pointing readers to tombstone or replacement context."
+        },
+        {
+          "code": "FORK_NOTICE_MISSING",
+          "severity": "warning",
+          "target": "provenance.forkNoticePacket",
+          "action": "Notify derivative repositories and merge-request owners before changing version targets."
+        },
+        {
+          "code": "REPRODUCIBILITY_FAILURE_UNEXPLAINED",
+          "severity": "blocker",
+          "target": "reproducibility.failureSummary",
+          "action": "Attach a concise failure summary to the tombstone and replacement recommendation."
+        },
+        {
+          "code": "EXPORT_METADATA_INCOMPLETE",
+          "severity": "blocker",
+          "target": "metadata",
+          "action": "Keep license, DataCite, and schema.org metadata complete across the tombstone transition."
+        }
+      ],
+      "datacite": {
+        "identifier": "10.5555/scibase.quantum-noise.v0.8.0",
+        "titles": [
+          {
+            "title": "Quantum Noise Draft"
+          }
+        ],
+        "version": "0.8.0",
+        "publisher": "SCIBASE.AI",
+        "publicationYear": "2026",
+        "resourceType": "Scientific project repository",
+        "relatedIdentifiers": [],
+        "descriptions": [
+          {
+            "descriptionType": "Other",
+            "description": "Repository version transition decision: hold. Reason: A stale result figure was published before the rerun failure was explained."
+          }
+        ]
+      },
+      "schemaOrg": {
+        "@context": "https://schema.org",
+        "@type": "SoftwareSourceCode",
+        "name": "Quantum Noise Draft",
+        "version": "0.8.0",
+        "identifier": "10.5555/scibase.quantum-noise.v0.8.0",
+        "codeRepository": "https://scibase.ai/projects/neuro-methods-atlas",
+        "archivedAt": "s3://scibase-archives/quantum-noise-draft/0.8.0.tar.gz",
+        "creativeWorkStatus": "reviewHold",
+        "license": "CC-BY-NC-4.0"
+      },
+      "auditDigest": "00838a48276b785b1746076534daf7854f199d70cbc5f9d4b47399f6fd291540"
+    }
+  }
+]
