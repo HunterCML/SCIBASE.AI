@@ -1,0 +1,263 @@
+[
+  {
+    "name": "ready materials model",
+    "report": {
+      "decision": "ready",
+      "counts": {
+        "blocker": 0,
+        "warning": 0,
+        "info": 0
+      },
+      "findings": [],
+      "reviewerActions": [],
+      "datacite": {
+        "identifier": "scibase:materials-porosity-ranker:2.0.0",
+        "creators": [
+          {
+            "name": "SCIBASE Materials AI Group",
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0003-1415-9265",
+                "schemeUri": "https://orcid.org"
+              }
+            ]
+          }
+        ],
+        "titles": [
+          {
+            "title": "Materials Porosity Ranker Weights"
+          }
+        ],
+        "publisher": "SCIBASE model registry",
+        "publicationYear": "2026",
+        "resourceType": "Model weights",
+        "version": "2.0.0",
+        "relatedIdentifiers": [
+          {
+            "relatedIdentifier": "10.5555/scibase.zeolite.v3",
+            "relationType": "IsDerivedFrom"
+          }
+        ],
+        "rightsList": [
+          {
+            "rights": "Apache-2.0"
+          }
+        ],
+        "descriptions": [
+          {
+            "descriptionType": "TechnicalInfo",
+            "description": "Release decision: ready"
+          }
+        ]
+      },
+      "schemaOrg": {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Materials Porosity Ranker Weights",
+        "identifier": "scibase:materials-porosity-ranker:2.0.0",
+        "version": "2.0.0",
+        "creator": [
+          "SCIBASE Materials AI Group"
+        ],
+        "encodingFormat": "safetensors",
+        "isBasedOn": [
+          "open-zeolite-features-v3"
+        ],
+        "softwareRequirements": "python3.11-pytorch2.3",
+        "license": "Apache-2.0",
+        "measurementTechnique": "top10_recall, calibration_error"
+      },
+      "auditDigest": "f14237a6b3f03dc7b4bf1e8a46f2748b9c090ae2dc92bfff3db68d6efa771d98"
+    }
+  },
+  {
+    "name": "held clinical model",
+    "report": {
+      "decision": "hold",
+      "counts": {
+        "blocker": 9,
+        "warning": 0,
+        "info": 0
+      },
+      "findings": [
+        {
+          "severity": "blocker",
+          "code": "MODEL_CARD_INCOMPLETE",
+          "message": "Model card is missing limitations.",
+          "target": "modelCard",
+          "remediation": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "severity": "blocker",
+          "code": "MODEL_CARD_INCOMPLETE",
+          "message": "Model card is missing evaluation.",
+          "target": "modelCard",
+          "remediation": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "severity": "blocker",
+          "code": "MODEL_CARD_INCOMPLETE",
+          "message": "Model card is missing license.",
+          "target": "modelCard",
+          "remediation": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "severity": "blocker",
+          "code": "MODEL_CARD_INCOMPLETE",
+          "message": "Model card is missing ethicalConsiderations.",
+          "target": "modelCard",
+          "remediation": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "severity": "blocker",
+          "code": "TRAINING_DATA_EMBARGO_ACTIVE",
+          "message": "restricted-clinical-cohort is embargoed until 2026-06-15T00:00:00Z.",
+          "target": "lineage.trainingDatasets",
+          "remediation": "Hold public preview or reuse until the embargo expires or a reviewer-specific access packet is approved."
+        },
+        {
+          "severity": "blocker",
+          "code": "RESTRICTED_DATA_DUA_MISSING",
+          "message": "restricted-clinical-cohort is restricted but has no data-use agreement evidence.",
+          "target": "lineage.trainingDatasets",
+          "remediation": "Attach data-use agreement evidence before allowing model preview, export, or reuse."
+        },
+        {
+          "severity": "blocker",
+          "code": "PUBLIC_LICENSE_UNKNOWN",
+          "message": "Public model package has an unknown license.",
+          "target": "access.license",
+          "remediation": "Select a known license or hold the public release until legal review completes."
+        },
+        {
+          "severity": "blocker",
+          "code": "MODEL_EMBARGO_ACTIVE",
+          "message": "The model package is under embargo until 2026-06-15T00:00:00Z.",
+          "target": "access.embargoUntil",
+          "remediation": "Keep preview metadata-only or route through approved reviewer access until embargo expiry."
+        },
+        {
+          "severity": "blocker",
+          "code": "RERUN_OUTPUT_DRIFT",
+          "message": "Rerun output hash does not match the expected output hash.",
+          "target": "rerun.outputHash",
+          "remediation": "Regenerate the result packet or update model lineage after investigating the output drift."
+        }
+      ],
+      "reviewerActions": [
+        {
+          "code": "MODEL_CARD_INCOMPLETE",
+          "severity": "blocker",
+          "target": "modelCard",
+          "action": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "code": "MODEL_CARD_INCOMPLETE",
+          "severity": "blocker",
+          "target": "modelCard",
+          "action": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "code": "MODEL_CARD_INCOMPLETE",
+          "severity": "blocker",
+          "target": "modelCard",
+          "action": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "code": "MODEL_CARD_INCOMPLETE",
+          "severity": "blocker",
+          "target": "modelCard",
+          "action": "Complete the model-card section so preview and reuse reviewers can judge scope, risks, and allowed use."
+        },
+        {
+          "code": "TRAINING_DATA_EMBARGO_ACTIVE",
+          "severity": "blocker",
+          "target": "lineage.trainingDatasets",
+          "action": "Hold public preview or reuse until the embargo expires or a reviewer-specific access packet is approved."
+        },
+        {
+          "code": "RESTRICTED_DATA_DUA_MISSING",
+          "severity": "blocker",
+          "target": "lineage.trainingDatasets",
+          "action": "Attach data-use agreement evidence before allowing model preview, export, or reuse."
+        },
+        {
+          "code": "PUBLIC_LICENSE_UNKNOWN",
+          "severity": "blocker",
+          "target": "access.license",
+          "action": "Select a known license or hold the public release until legal review completes."
+        },
+        {
+          "code": "MODEL_EMBARGO_ACTIVE",
+          "severity": "blocker",
+          "target": "access.embargoUntil",
+          "action": "Keep preview metadata-only or route through approved reviewer access until embargo expiry."
+        },
+        {
+          "code": "RERUN_OUTPUT_DRIFT",
+          "severity": "blocker",
+          "target": "rerun.outputHash",
+          "action": "Regenerate the result packet or update model lineage after investigating the output drift."
+        }
+      ],
+      "datacite": {
+        "identifier": "scibase:clinical-triage-draft:0.9.0",
+        "creators": [
+          {
+            "name": "SCIBASE Materials AI Group",
+            "nameIdentifiers": [
+              {
+                "nameIdentifier": "0000-0003-1415-9265",
+                "schemeUri": "https://orcid.org"
+              }
+            ]
+          }
+        ],
+        "titles": [
+          {
+            "title": "Clinical Triage Draft Weights"
+          }
+        ],
+        "publisher": "SCIBASE model registry",
+        "publicationYear": "2026",
+        "resourceType": "Model weights",
+        "version": "0.9.0",
+        "relatedIdentifiers": [
+          {
+            "relatedIdentifier": "restricted-clinical-cohort",
+            "relationType": "IsDerivedFrom"
+          }
+        ],
+        "rightsList": [
+          {
+            "rights": "unknown"
+          }
+        ],
+        "descriptions": [
+          {
+            "descriptionType": "TechnicalInfo",
+            "description": "Release decision: hold"
+          }
+        ]
+      },
+      "schemaOrg": {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Clinical Triage Draft Weights",
+        "identifier": "scibase:clinical-triage-draft:0.9.0",
+        "version": "0.9.0",
+        "creator": [
+          "SCIBASE Materials AI Group"
+        ],
+        "encodingFormat": "bin",
+        "isBasedOn": [
+          "restricted-clinical-cohort"
+        ],
+        "softwareRequirements": "python3.11-pytorch2.3",
+        "license": "unknown",
+        "measurementTechnique": "top10_recall, calibration_error"
+      },
+      "auditDigest": "800789293a33b63e97878fc780513e821b12c41988af73d1c232effb0a87fe66"
+    }
+  }
+]
