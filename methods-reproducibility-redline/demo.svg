@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Methods Reproducibility Redline demo dashboard</title>
+  <desc id="desc">Static dashboard preview for the methods reproducibility redline module.</desc>
+  <rect width="1280" height="720" fill="#f5f7fb"/>
+  <rect x="64" y="52" width="1152" height="616" rx="12" fill="#ffffff" stroke="#d5dbe8"/>
+  <text x="104" y="108" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#182033">Methods Reproducibility Redline</text>
+  <text x="104" y="146" font-family="Arial, sans-serif" font-size="18" fill="#526071">Issue #13 AI-assisted research tools slice</text>
+  <rect x="104" y="190" width="312" height="132" rx="10" fill="#eef7f1" stroke="#b7dfc1"/>
+  <text x="130" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#174d29">Readiness Score</text>
+  <text x="130" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#0f7a36">94</text>
+  <rect x="464" y="190" width="312" height="132" rx="10" fill="#fff6e8" stroke="#f1d29d"/>
+  <text x="490" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7a4b00">Reviewer Redlines</text>
+  <text x="490" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#b06a00">2</text>
+  <rect x="824" y="190" width="312" height="132" rx="10" fill="#edf3ff" stroke="#bfd0f3"/>
+  <text x="850" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f3c75">Citation Inserts</text>
+  <text x="850" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#285bb8">5</text>
+  <rect x="104" y="370" width="1032" height="176" rx="10" fill="#fbfcff" stroke="#dfe5f1"/>
+  <text x="130" y="412" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#182033">Pre-review packet</text>
+  <text x="130" y="454" font-family="Arial, sans-serif" font-size="17" fill="#394559">- Abstract, executive, and layperson summaries with evidence spans</text>
+  <text x="130" y="488" font-family="Arial, sans-serif" font-size="17" fill="#394559">- Missing method evidence routed to domain-specific reviewer tasks</text>
+  <text x="130" y="522" font-family="Arial, sans-serif" font-size="17" fill="#394559">- APA, MLA, and Nature-style citation recommendations with insertion hints</text>
+  <text x="104" y="610" font-family="Arial, sans-serif" font-size="16" fill="#526071">Validation: node methods-reproducibility-redline/test.js && node methods-reproducibility-redline/demo.js</text>
+</svg>
