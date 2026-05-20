@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">SLA Credit Revenue Guard demo dashboard</title>
+  <desc id="desc">Static dashboard preview for institutional revenue invoice controls.</desc>
+  <rect width="1280" height="720" fill="#f6f8fb"/>
+  <rect x="64" y="52" width="1152" height="616" rx="12" fill="#ffffff" stroke="#d7deea"/>
+  <text x="104" y="108" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#172033">SLA Credit Revenue Guard</text>
+  <text x="104" y="146" font-family="Arial, sans-serif" font-size="18" fill="#526071">Issue #20 revenue infrastructure slice</text>
+  <rect x="104" y="190" width="312" height="132" rx="10" fill="#eef7f1" stroke="#b7dfc1"/>
+  <text x="130" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#174d29">Invoice Ready</text>
+  <text x="130" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#0f7a36">1</text>
+  <rect x="464" y="190" width="312" height="132" rx="10" fill="#fff3ef" stroke="#efc2b2"/>
+  <text x="490" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#7a2f1b">Service Credits</text>
+  <text x="490" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#b33a1c">$550</text>
+  <rect x="824" y="190" width="312" height="132" rx="10" fill="#edf3ff" stroke="#bfd0f3"/>
+  <text x="850" y="232" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#1f3c75">Compute Overage</text>
+  <text x="850" y="288" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#285bb8">3500</text>
+  <rect x="104" y="370" width="1032" height="176" rx="10" fill="#fbfcff" stroke="#dfe5f1"/>
+  <text x="130" y="412" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#182033">Finance packet</text>
+  <text x="130" y="454" font-family="Arial, sans-serif" font-size="17" fill="#394559">- Base subscription fee plus AI compute overage line</text>
+  <text x="130" y="488" font-family="Arial, sans-serif" font-size="17" fill="#394559">- SLA uptime breach converted to a capped service credit</text>
+  <text x="130" y="522" font-family="Arial, sans-serif" font-size="17" fill="#394559">- Licensing export blocks private content and weak aggregation</text>
+  <text x="104" y="610" font-family="Arial, sans-serif" font-size="16" fill="#526071">Validation: node sla-credit-revenue-guard/test.js && node sla-credit-revenue-guard/demo.js</text>
+</svg>
