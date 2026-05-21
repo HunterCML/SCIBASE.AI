@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <rect x="72" y="72" width="1136" height="584" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="112" y="132" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">Notebook Kernel Lease Guard</text>
+  <text x="112" y="176" font-family="Arial, sans-serif" font-size="20" fill="#334155">Real-time collaborative editor slice for issue #12</text>
+  <rect x="112" y="228" width="320" height="270" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="136" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#0c4a6e">Kernel Lease</text>
+  <text x="136" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">owner</text>
+  <text x="136" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">expiry</text>
+  <text x="136" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">handoff</text>
+  <text x="136" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">resource limit</text>
+  <rect x="492" y="228" width="320" height="270" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="516" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#78350f">Notebook Cells</text>
+  <text x="516" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">source hash</text>
+  <text x="516" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">restart id</text>
+  <text x="516" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">inline comments</text>
+  <text x="516" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">publication state</text>
+  <rect x="872" y="228" width="300" height="270" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="896" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#14532d">Execution Safety</text>
+  <text x="896" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">hold blockers</text>
+  <text x="896" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">rerun queue</text>
+  <text x="896" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">owner digest</text>
+  <text x="896" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">audit digest</text>
+  <text x="112" y="590" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Decision: hold execution when leases expire or publication cells have unresolved comments.</text>
+</svg>

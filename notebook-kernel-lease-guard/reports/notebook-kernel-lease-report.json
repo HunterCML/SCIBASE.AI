@@ -1,0 +1,62 @@
+{
+  "documentId": "doc-materials-manuscript",
+  "decision": "hold-execution",
+  "counts": {
+    "blocker": 3,
+    "warning": 4,
+    "info": 0
+  },
+  "executionQueue": [],
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "KERNEL_HANDOFF_PENDING",
+      "target": "kernel:python-main",
+      "message": "Kernel handoff is requested but not accepted.",
+      "remediation": "Pause execution until the new owner accepts the handoff and autosave snapshot."
+    },
+    {
+      "severity": "warning",
+      "code": "KERNEL_MEMORY_LIMIT_EXCEEDED",
+      "target": "kernel:python-main",
+      "message": "Kernel memory usage exceeds the lease limit.",
+      "remediation": "Queue execution or increase the approved resource lease before reruns."
+    },
+    {
+      "severity": "blocker",
+      "code": "KERNEL_LEASE_EXPIRED",
+      "target": "kernel:r-stats",
+      "message": "Kernel lease has expired.",
+      "remediation": "Renew, transfer, or shut down the kernel before running more notebook cells."
+    },
+    {
+      "severity": "warning",
+      "code": "CELL_OUTPUT_STALE_AFTER_RESTART",
+      "target": "cell:cell-model-fit",
+      "message": "Cell output was produced before the current kernel restart.",
+      "remediation": "Rerun the cell after the latest restart before freezing the manuscript."
+    },
+    {
+      "severity": "warning",
+      "code": "CELL_SOURCE_CHANGED_AFTER_OUTPUT",
+      "target": "cell:cell-model-fit",
+      "message": "Cell source changed after the last recorded output.",
+      "remediation": "Queue the cell for rerun and refresh linked manuscript outputs."
+    },
+    {
+      "severity": "blocker",
+      "code": "PUBLICATION_CELL_HAS_UNRESOLVED_COMMENTS",
+      "target": "cell:cell-model-fit",
+      "message": "Publication-ready notebook cell still has unresolved comments.",
+      "remediation": "Resolve inline reviewer comments or move the cell out of publication-ready state."
+    },
+    {
+      "severity": "blocker",
+      "code": "CELL_EXECUTION_BLOCKED_BY_LEASE",
+      "target": "cell:cell-stat-table",
+      "message": "Cell execution is blocked because its kernel lease is missing or expired.",
+      "remediation": "Renew the lease or queue the cell for a valid owner."
+    }
+  ],
+  "auditDigest": "582e7bc4f37e4f9501eec3d3124ade4f7462eeb229ba7aa2b84b4ed9e752f415"
+}
