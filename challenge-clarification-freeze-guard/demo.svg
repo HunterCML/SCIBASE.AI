@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f8fafc"/>
+  <rect x="72" y="72" width="1136" height="584" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="112" y="132" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">Challenge Clarification Freeze Guard</text>
+  <text x="112" y="176" font-family="Arial, sans-serif" font-size="20" fill="#334155">Scientific bounty system slice for issue #18</text>
+  <rect x="112" y="228" width="320" height="270" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="136" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#0c4a6e">Material Q&amp;A</text>
+  <text x="136" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">deliverable</text>
+  <text x="136" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">rubric</text>
+  <text x="136" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">payout</text>
+  <text x="136" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">NDA/data access</text>
+  <rect x="492" y="228" width="320" height="270" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="516" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#78350f">Freeze Rules</text>
+  <text x="516" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">cutoff before deadline</text>
+  <text x="516" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">rule-change amendment</text>
+  <text x="516" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">all-solver broadcast</text>
+  <text x="516" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">signed digest</text>
+  <rect x="872" y="228" width="300" height="270" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="896" y="270" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#14532d">Arbitration Packet</text>
+  <text x="896" y="314" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">findings</text>
+  <text x="896" y="346" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">notifications</text>
+  <text x="896" y="378" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">recipient digest</text>
+  <text x="896" y="410" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">hold decision</text>
+  <text x="112" y="590" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Decision: hold submissions when clarifications change rules after cutoff.</text>
+</svg>

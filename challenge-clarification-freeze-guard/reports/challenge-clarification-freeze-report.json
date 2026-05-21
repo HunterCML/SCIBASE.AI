@@ -1,0 +1,49 @@
+{
+  "challengeId": "challenge-climate-forecast-2026",
+  "decision": "hold-submissions",
+  "counts": {
+    "blocker": 1,
+    "warning": 2,
+    "info": 0
+  },
+  "freezePacket": {
+    "clarificationCutoff": "2026-06-10T17:00:00Z",
+    "submissionDeadline": "2026-06-24T17:00:00Z",
+    "materialQuestionCount": 2,
+    "broadcastCount": 1,
+    "notificationPlan": [
+      {
+        "questionId": "q-rubric",
+        "recipients": [
+          "solver-lab",
+          "student-team"
+        ],
+        "digest": "9757627b6256208ff855c81454d61a8c153e17aa4775485886a35532f9f4d424"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "severity": "warning",
+      "code": "BROADCAST_AUDIENCE_INCOMPLETE",
+      "target": "question:q-rubric",
+      "message": "Clarification broadcast missed 1 eligible recipient(s).",
+      "remediation": "Send the clarification to every eligible solver team and include it in the freeze digest."
+    },
+    {
+      "severity": "blocker",
+      "code": "MATERIAL_RESPONSE_NOT_BROADCAST",
+      "target": "question:q-data",
+      "message": "Material clarification response was not broadcast to all eligible solvers.",
+      "remediation": "Broadcast the response to all eligible teams or the public Q&A digest before accepting submissions."
+    },
+    {
+      "severity": "warning",
+      "code": "FREEZE_DIGEST_STALE",
+      "target": "freezeDigest",
+      "message": "Freeze digest predates one or more clarification responses.",
+      "remediation": "Regenerate the digest after the latest sponsor response."
+    }
+  ],
+  "auditDigest": "3ebf52fd8e857429d195e15234d8f151cc5c773d688585f8586d25d2aeb46020"
+}
