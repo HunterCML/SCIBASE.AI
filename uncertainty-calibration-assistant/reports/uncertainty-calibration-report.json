@@ -1,0 +1,72 @@
+{
+  "decision": "revise-before-submission",
+  "manuscriptId": "ms-cognitive-fatigue-042",
+  "domain": "clinical neuroscience",
+  "counts": {
+    "blocker": 1,
+    "warning": 3,
+    "info": 0
+  },
+  "reproducibilityConfidence": "high",
+  "calibratedClaims": [
+    {
+      "id": "claim-a",
+      "original": "The intervention definitively eliminates cognitive fatigue in post-viral patients.",
+      "calibrated": "The intervention definitively reduces cognitive fatigue in post-viral patients.",
+      "evidenceScore": 2,
+      "confidence": "low",
+      "findingCodes": [
+        "ABSOLUTE_LANGUAGE_UNDER_SUPPORTED",
+        "CONFIDENCE_EXCEEDS_EVIDENCE",
+        "UNCERTAINTY_INTERVAL_MISSING",
+        "LIMITATION_DISCLOSURE_MISSING"
+      ]
+    },
+    {
+      "id": "claim-b",
+      "original": "The wearable sleep signal suggests a reusable early-warning marker.",
+      "calibrated": "The wearable sleep signal suggests a reusable early-warning marker.",
+      "evidenceScore": 9,
+      "confidence": "high",
+      "findingCodes": []
+    }
+  ],
+  "findings": [
+    {
+      "severity": "blocker",
+      "code": "ABSOLUTE_LANGUAGE_UNDER_SUPPORTED",
+      "claimId": "claim-a",
+      "message": "The claim uses high-certainty language without enough evidence support.",
+      "remediation": "Replace absolute wording with calibrated language or attach stronger statistical, replication, and citation evidence."
+    },
+    {
+      "severity": "warning",
+      "code": "CONFIDENCE_EXCEEDS_EVIDENCE",
+      "claimId": "claim-a",
+      "message": "Declared confidence is higher than the evidence packet supports.",
+      "remediation": "Lower the confidence rating or add primary data, confidence intervals, and replication evidence."
+    },
+    {
+      "severity": "warning",
+      "code": "UNCERTAINTY_INTERVAL_MISSING",
+      "claimId": "claim-a",
+      "message": "Statistical evidence lacks a confidence or credible interval.",
+      "remediation": "Add interval estimates so reviewers can judge magnitude and uncertainty."
+    },
+    {
+      "severity": "warning",
+      "code": "LIMITATION_DISCLOSURE_MISSING",
+      "claimId": "claim-a",
+      "message": "Under-supported claim has no limitation disclosure.",
+      "remediation": "Add a limitations sentence that explains sample, method, or reproducibility uncertainty."
+    }
+  ],
+  "researchOpportunities": [
+    {
+      "claimId": "claim-a",
+      "opportunity": "Run targeted replication or collect stronger primary evidence before making a high-certainty statement.",
+      "priority": "medium"
+    }
+  ],
+  "auditDigest": "4a55cd374d90ac0c0abcb090e4b05005ec320b06b5405bfd242fee43352edf90"
+}

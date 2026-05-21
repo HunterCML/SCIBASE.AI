@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#f7fafc"/>
+  <rect x="72" y="72" width="1136" height="584" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <text x="112" y="132" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#0f172a">Uncertainty Calibration Assistant</text>
+  <text x="112" y="176" font-family="Arial, sans-serif" font-size="20" fill="#334155">AI research assistant slice for issue #16</text>
+  <rect x="112" y="222" width="340" height="300" rx="8" fill="#e0f2fe" stroke="#0284c7"/>
+  <text x="136" y="268" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0c4a6e">Claim Review</text>
+  <text x="136" y="310" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">absolute wording</text>
+  <text x="136" y="342" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">evidence score</text>
+  <text x="136" y="374" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">confidence interval</text>
+  <text x="136" y="406" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">limitations</text>
+  <rect x="492" y="222" width="340" height="300" rx="8" fill="#dcfce7" stroke="#16a34a"/>
+  <text x="516" y="268" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#14532d">Reproducibility</text>
+  <text x="516" y="310" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">passed reruns</text>
+  <text x="516" y="342" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">failed reruns</text>
+  <text x="516" y="374" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">non-determinism</text>
+  <text x="516" y="406" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">confidence signal</text>
+  <rect x="872" y="222" width="300" height="300" rx="8" fill="#fef3c7" stroke="#d97706"/>
+  <text x="896" y="268" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#78350f">Output</text>
+  <text x="896" y="310" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">review findings</text>
+  <text x="896" y="342" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">calibrated claims</text>
+  <text x="896" y="374" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">research gaps</text>
+  <text x="896" y="406" font-family="Arial, sans-serif" font-size="18" fill="#0f172a">audit digest</text>
+  <text x="112" y="590" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Decision: revise-before-submission when claims exceed evidence strength.</text>
+</svg>
