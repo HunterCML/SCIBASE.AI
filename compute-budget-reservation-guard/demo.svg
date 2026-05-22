@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Compute Budget Reservation Guard Demo</title>
+  <desc id="desc">A revenue infrastructure demo showing compute reservations flowing through approval, grant, overrun, and revenue recognition checks.</desc>
+  <rect width="1280" height="720" fill="#0d1726"/>
+  <rect x="0" y="0" width="1280" height="132" fill="#10243a"/>
+  <text x="64" y="52" fill="#d8e8f7" font-family="Arial, sans-serif" font-size="23">SCIBASE bounty demo artifact</text>
+  <text x="64" y="102" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Compute Budget Reservation Guard</text>
+  <text x="66" y="158" fill="#b8cbe1" font-family="Arial, sans-serif" font-size="24">Issue #20: revenue infrastructure and AI compute billing</text>
+  <rect x="64" y="214" width="542" height="318" fill="#ffffff" opacity="0.94"/>
+  <rect x="676" y="214" width="540" height="318" fill="#07101c" opacity="0.88"/>
+  <text x="96" y="260" fill="#16405f" font-family="Arial, sans-serif" font-size="18" font-weight="700">CONTROL FLOW</text>
+  <text x="96" y="314" fill="#152036" font-family="Arial, sans-serif" font-size="24">1. Check PI and finance approvals</text>
+  <text x="96" y="356" fill="#152036" font-family="Arial, sans-serif" font-size="24">2. Enforce grant and data-use limits</text>
+  <text x="96" y="398" fill="#152036" font-family="Arial, sans-serif" font-size="24">3. Hold overruns without approval</text>
+  <text x="96" y="440" fill="#152036" font-family="Arial, sans-serif" font-size="24">4. Release unused reservations</text>
+  <text x="96" y="482" fill="#152036" font-family="Arial, sans-serif" font-size="24">5. Split recognized and deferred revenue</text>
+  <text x="708" y="262" fill="#68d391" font-family="Consolas, monospace" font-size="18">$ node compute-budget-reservation-guard/test.js</text>
+  <text x="708" y="316" fill="#e9f7ef" font-family="Arial, sans-serif" font-size="22">tests passed: approvals, grant holds, overruns,</text>
+  <text x="708" y="348" fill="#e9f7ef" font-family="Arial, sans-serif" font-size="22">unused budget releases, deterministic digest</text>
+  <text x="708" y="416" fill="#a8bdd1" font-family="Arial, sans-serif" font-size="18">Reviewer artifacts</text>
+  <text x="708" y="454" fill="#ffffff" font-family="Arial, sans-serif" font-size="22">reports/compute-budget-reservation-report.json</text>
+  <text x="708" y="488" fill="#ffffff" font-family="Arial, sans-serif" font-size="22">reports/compute-budget-reservation-report.md</text>
+  <rect x="64" y="590" width="38" height="8" fill="#68d391"/>
+  <rect x="118" y="590" width="38" height="8" fill="#ffffff" opacity="0.3"/>
+  <rect x="172" y="590" width="38" height="8" fill="#ffffff" opacity="0.3"/>
+  <text x="64" y="650" fill="#d8e8f7" font-family="Arial, sans-serif" font-size="21">Committed video demo + focused tests + acceptance notes</text>
+</svg>

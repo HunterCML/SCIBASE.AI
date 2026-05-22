@@ -1,0 +1,164 @@
+{
+  "accountId": "northbridge-research-cloud",
+  "generatedAt": "2026-06-01T12:00:00Z",
+  "decision": "hold-compute-release",
+  "counts": {
+    "approved": 1,
+    "approve-with-controls": 1,
+    "hold-reservation": 1,
+    "findings": 6
+  },
+  "reservations": [
+    {
+      "reservationId": "res-folding-forecast",
+      "projectId": "project-protein-folding",
+      "decision": "approved",
+      "requestedAmount": 4500,
+      "actualAmount": 3960,
+      "recognizedRevenue": 3960,
+      "deferredRevenue": 540,
+      "currency": "USD",
+      "findings": [],
+      "financeActions": [
+        {
+          "type": "defer-revenue",
+          "reservationId": "res-folding-forecast",
+          "amount": 540,
+          "currency": "USD"
+        }
+      ],
+      "reservationDigest": "c4cd9fb5687f64355113d69bdda8d77c726f8c0209f1075760dbd9eb6f319212"
+    },
+    {
+      "reservationId": "res-commercial-eval",
+      "projectId": "project-partner-evaluation",
+      "decision": "hold-reservation",
+      "requestedAmount": 4500,
+      "actualAmount": 5550,
+      "recognizedRevenue": 0,
+      "deferredRevenue": 4500,
+      "currency": "USD",
+      "findings": [
+        {
+          "severity": "warning",
+          "code": "FINANCE_APPROVAL_MISSING",
+          "message": "Finance has not approved the reservation cap or charge route.",
+          "remediation": "Route the reservation through finance approval before the job starts or invoices are created."
+        },
+        {
+          "severity": "blocker",
+          "code": "GRANT_RESTRICTION_BLOCKS_WORKLOAD",
+          "message": "The linked grant excludes commercial AI compute workloads.",
+          "remediation": "Move the job to an eligible funding source or change the workload classification."
+        },
+        {
+          "severity": "blocker",
+          "code": "COMPUTE_OVERRUN_APPROVAL_MISSING",
+          "message": "Actual usage is 23.3% over the reserved budget without overrun approval.",
+          "remediation": "Pause billing and collect explicit overrun approval before recognizing the excess usage."
+        },
+        {
+          "severity": "blocker",
+          "code": "RESTRICTED_DATA_AGREEMENT_MISSING",
+          "message": "Restricted data compute is missing DPA or data-use-agreement evidence.",
+          "remediation": "Attach the signed data agreement before releasing GPUs or revenue recognition."
+        },
+        {
+          "severity": "warning",
+          "code": "INVOICE_EVIDENCE_MISSING",
+          "message": "The completed compute job has no invoice evidence packet.",
+          "remediation": "Attach usage report, order form, and invoice artifacts before revenue is marked billable."
+        }
+      ],
+      "financeActions": [
+        {
+          "type": "hold-grant-restricted",
+          "reservationId": "res-commercial-eval",
+          "grantId": "grant-public-health"
+        },
+        {
+          "type": "require-overrun-approval",
+          "reservationId": "res-commercial-eval",
+          "overrunPercent": 23.33
+        },
+        {
+          "type": "defer-revenue",
+          "reservationId": "res-commercial-eval",
+          "amount": 4500,
+          "currency": "USD"
+        }
+      ],
+      "reservationDigest": "323939fc7ea477f6a353a8de9ca4cb32bcd5a5062e91fc7ff3bda7662bf62d22"
+    },
+    {
+      "reservationId": "res-unused-batch",
+      "projectId": "project-materials-scan",
+      "decision": "approve-with-controls",
+      "requestedAmount": 2800,
+      "actualAmount": 0,
+      "recognizedRevenue": 0,
+      "deferredRevenue": 2800,
+      "currency": "USD",
+      "findings": [
+        {
+          "severity": "warning",
+          "code": "UNUSED_RESERVATION_EXPIRED",
+          "message": "The reservation expired without usage.",
+          "remediation": "Release unused budget and keep an audit note for the funding ledger."
+        }
+      ],
+      "financeActions": [
+        {
+          "type": "release-unused-budget",
+          "reservationId": "res-unused-batch",
+          "amount": 2800,
+          "currency": "USD"
+        },
+        {
+          "type": "defer-revenue",
+          "reservationId": "res-unused-batch",
+          "amount": 2800,
+          "currency": "USD"
+        }
+      ],
+      "reservationDigest": "6c969d8043f2a24b3aa48e7b71d4ecab978fa7ae200c229d7e85866802787d1b"
+    }
+  ],
+  "financeActions": [
+    {
+      "type": "defer-revenue",
+      "reservationId": "res-folding-forecast",
+      "amount": 540,
+      "currency": "USD"
+    },
+    {
+      "type": "hold-grant-restricted",
+      "reservationId": "res-commercial-eval",
+      "grantId": "grant-public-health"
+    },
+    {
+      "type": "require-overrun-approval",
+      "reservationId": "res-commercial-eval",
+      "overrunPercent": 23.33
+    },
+    {
+      "type": "defer-revenue",
+      "reservationId": "res-commercial-eval",
+      "amount": 4500,
+      "currency": "USD"
+    },
+    {
+      "type": "release-unused-budget",
+      "reservationId": "res-unused-batch",
+      "amount": 2800,
+      "currency": "USD"
+    },
+    {
+      "type": "defer-revenue",
+      "reservationId": "res-unused-batch",
+      "amount": 2800,
+      "currency": "USD"
+    }
+  ],
+  "auditDigest": "3097df27e1490f943426267ef03818e3e7585940d329a47896daff2d4d19abc2"
+}
