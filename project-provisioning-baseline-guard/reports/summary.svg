@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Project Provisioning Baseline Guard Demo</title>
+  <desc id="desc">A user and project management demo showing project launch controls, identity evidence, visibility rules, role grants, and audit evidence.</desc>
+  <rect width="1280" height="720" fill="#0d1726"/>
+  <rect x="0" y="0" width="1280" height="132" fill="#10243a"/>
+  <text x="64" y="52" fill="#d8e8f7" font-family="Arial, sans-serif" font-size="23">SCIBASE bounty demo artifact</text>
+  <text x="64" y="102" fill="#ffffff" font-family="Arial, sans-serif" font-size="44" font-weight="700">Project Provisioning Baseline Guard</text>
+  <text x="66" y="158" fill="#b8cbe1" font-family="Arial, sans-serif" font-size="24">Issue #11: user and project management launch governance</text>
+  <rect x="64" y="214" width="542" height="318" fill="#ffffff" opacity="0.94"/>
+  <rect x="676" y="214" width="540" height="318" fill="#07101c" opacity="0.88"/>
+  <text x="96" y="260" fill="#16405f" font-family="Arial, sans-serif" font-size="18" font-weight="700">PROVISIONING BASELINE</text>
+  <text x="96" y="314" fill="#152036" font-family="Arial, sans-serif" font-size="24">1. Verify requester authority and MFA</text>
+  <text x="96" y="356" fill="#152036" font-family="Arial, sans-serif" font-size="24">2. Check metadata and template controls</text>
+  <text x="96" y="398" fill="#152036" font-family="Arial, sans-serif" font-size="24">3. Enforce visibility by data classification</text>
+  <text x="96" y="440" fill="#152036" font-family="Arial, sans-serif" font-size="24">4. Validate initial roles and object grants</text>
+  <text x="96" y="482" fill="#152036" font-family="Arial, sans-serif" font-size="24">5. Emit audit digest and action queue</text>
+  <text x="708" y="262" fill="#68d391" font-family="Consolas, monospace" font-size="18">$ node project-provisioning-baseline-guard/test.js</text>
+  <text x="708" y="318" fill="#68d391" font-family="Arial, sans-serif" font-size="25" font-weight="700">decision: provision-ready</text>
+  <text x="708" y="362" fill="#e9f7ef" font-family="Arial, sans-serif" font-size="22">blockers: 0 | warnings: 0</text>
+  <text x="708" y="416" fill="#a8bdd1" font-family="Arial, sans-serif" font-size="18">Reviewer artifacts</text>
+  <text x="708" y="454" fill="#ffffff" font-family="Arial, sans-serif" font-size="22">reports/provisioning-baseline-packet.json</text>
+  <text x="708" y="488" fill="#ffffff" font-family="Arial, sans-serif" font-size="22">reports/provisioning-baseline-report.md</text>
+  <rect x="64" y="590" width="38" height="8" fill="#68d391"/>
+  <rect x="118" y="590" width="38" height="8" fill="#ffffff" opacity="0.3"/>
+  <rect x="172" y="590" width="38" height="8" fill="#ffffff" opacity="0.3"/>
+  <text x="64" y="650" fill="#d8e8f7" font-family="Arial, sans-serif" font-size="21">Synthetic project launch packet + deterministic audit evidence</text>
+</svg>

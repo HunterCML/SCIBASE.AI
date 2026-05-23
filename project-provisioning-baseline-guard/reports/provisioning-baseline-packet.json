@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-01T12:00:00Z",
+  "decision": "provision-ready",
+  "projectId": "project-neuro-qc",
+  "counts": {
+    "blocker": 0,
+    "warning": 0,
+    "info": 0
+  },
+  "findings": [],
+  "actionQueue": [],
+  "publicSummary": {
+    "projectId": "project-neuro-qc",
+    "projectName": "Neuro QC Consortium",
+    "templateId": "controlled-study",
+    "visibility": "institutional",
+    "dataClassification": "controlled",
+    "decision": "provision-ready",
+    "findingCounts": {
+      "blocker": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "auditDigest": "4d892fa7ef881f2261ac7b2c22774bc59439d85b74ed1a3688af60be7c04b083"
+}
